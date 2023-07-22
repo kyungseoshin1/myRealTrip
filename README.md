@@ -1,4 +1,4 @@
-﻿# MyRealTrip1
+﻿# MyRealTrip
 # 일본 여행 안내 프로젝트 - JapanTripGuide
 
 ![프로젝트 로고 혹은 이미지](https://example.com/project-logo.jpg)
