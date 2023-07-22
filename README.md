@@ -1,7 +1,5 @@
-﻿# MyRealTrip
+﻿# MyRealTrip / 마이리얼트립
 # 일본 여행 안내 프로젝트 - JapanTripGuide
-
-![일본여행](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/tKCd-IWc4gI)
 
 # 밴치 마킹 사이트
 https://www.myrealtrip.com/?utm_source=NAD&n_media=335738&n_query=%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD&n_rank=1&n_ad_group=grp-a001-01-000000025159241&n_ad=nad-a001-01-000000227706951&n_keyword_id=nkw-a001-01-000004227597559&n_keyword=%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD&n_campaign_type=1&n_ad_group_type=1
