@@ -1,7 +1,10 @@
 ﻿# MyRealTrip
 # 일본 여행 안내 프로젝트 - JapanTripGuide
 
-![프로젝트 로고 혹은 이미지](https://example.com/project-logo.jpg)
+![일본여행](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/tKCd-IWc4gI)
+
+# 밴치 마킹 사이트
+https://www.myrealtrip.com/?utm_source=NAD&n_media=335738&n_query=%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD&n_rank=1&n_ad_group=grp-a001-01-000000025159241&n_ad=nad-a001-01-000000227706951&n_keyword_id=nkw-a001-01-000004227597559&n_keyword=%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD&n_campaign_type=1&n_ad_group_type=1
 
 **JapanTripGuide**는 일본 여행자들을 위한 유용한 정보와 팁을 제공하는 웹 애플리케이션입니다. 이 앱을 통해 사용자들은 일본 여행의 다양한 명소, 음식, 문화 등에 대한 정보를 쉽고 빠르게 얻을 수 있습니다.
 
