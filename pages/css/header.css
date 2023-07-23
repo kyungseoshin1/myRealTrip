@@ -6,81 +6,156 @@
 }
 
 .main-header {
+  position: relative;
   width: 100%;
   height: auto;
+  z-index: auto;
+  display: block;
 }
 
 .nav-container {
   display: flex;
   position: relative;
   -webkit-box-align: center;
+  align-items: center;
   margin: 0px auto;
   width: 100%;
   height: 72px;
   max-width: 1060px;
 }
 
+.logo-container {
+  box-sizing: border-box;
+  letter-spacing: 0px;
+  overflow-anchor: none;
+}
+
 .button-logo {
+  margin: 0px;
+  padding: 0px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
   text-decoration: none;
-  border-color: transparent;
-  background-color: transparent;
 }
 
 .search-container {
-  top: 10px;
-  height: 48px;
   position: relative;
   width: 340px;
-  background-color: #f5f6f7;
-  box-sizing: border-box;
+  height: 48px;
+  margin-left: 24px;
 }
 
 .search-container-input {
-  width: 100%;
+  position: relative;
+  margin-right: 14px;
 }
 
 .search-container-input2 {
+  position: relative;
+  overflow: hidden;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  height: 48px;
+  border: none;
   border-radius: 4px;
 }
 
 .search-container-input-img {
-  border: 0px;
-  display: inline-block;
-  width: 30px;
-  height: auto;
-  font-size: larger;
-  vertical-align: middle;
+  position: absolute;
+  left: 18px;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 10px 10px 48px;
+  justify-content: center;
 }
 
 .search-container-input-img-value {
   display: inline-block;
-  width: 25px;
-  padding-top: 5px;
-  padding-left: 10px;
+  border: 0px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 .search-input {
   appearance: none;
-  background-color: #f5f6f7;
-  border-color: #f5f6f7;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 246, 247);
   border: none;
-  margin-left: 10px;
-  outline: none;
-  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  padding: 0px 16px 0px 48px;
+  color: rgb(73, 80, 86);
+  outline: 0px;
+  margin: 0;
+  line-height: inherit;
+  border-radius: 0;
+  box-sizing: border-box;
+  overflow-anchor: none;
 }
 
 .header-big-container {
   display: flex;
+  flex-grow: 1;
+  height: 100%;
+  -webkit-box-align: center;
+  align-items: center;
   justify-content: flex-end;
 }
 
 .header-small-container {
   display: flex;
-  height: 100%;
+  height: 36px;
+  position: relative;
+  margin-right: 0px;
+}
+
+.login-container {
+  position: relative;
+}
+
+.login-button {
+  margin: 0px;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  display: flex;
   align-items: center;
   position: relative;
+  height: 100%;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: rgb(102, 109, 117);
+  text-decoration: none;
+}
+
+.join-button {
+  margin: 0px 0px 0px 12px;
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 100%;
+  padding: 0px 32px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(43, 150, 237);
+  border: 1px solid rgb(167, 212, 249);
 }
 
 .bottom-header-container {
@@ -101,6 +176,52 @@
   display: flex;
 }
 
-.item-container1 {
+.item-container {
+  position: relative;
+  display: flex;
   margin: 0px 14px;
+}
+
+.href {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.item-container-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(73, 80, 86);
+}
+
+.item-container1 {
+  position: relative;
+}
+
+.item-container1-container {
+  margin: 0px 0px 0px 14px;
+  padding: 0px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 96px;
+  color: var(--gray-700);
+}
+
+.item-container1-title {
+  margin-right: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+}
+
+.moreimg {
+  display: inline-block;
+  border: 0px;
+  width: 20px;
+  height: 20px;
 }
