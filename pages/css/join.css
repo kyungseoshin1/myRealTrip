@@ -1,0 +1,43 @@
+.app-layout {
+  width: 100%;
+  height: 100vh;
+  color: rgb(20, 23, 25);
+}
+
+.left-aside {
+  position: fixed;
+  top: 0px;
+  bottom: 96px;
+  left: 0px;
+  padding: 40px 38px 0px 32px;
+}
+
+.join-section-container {
+  min-height: 100%;
+  margin-left: 320px;
+  padding: 0px 20px 210px;
+  text-align: center;
+}
+
+.join-layout {
+  width: 880px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.join-title-container {
+  padding: 72px 0px 53px;
+  border-bottom: 1px solid;
+  margin-bottom: 48px;
+}
+
+div {
+  display: block;
+}
+
+.join-title1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 8px;
+  line-height: 130%;
+}
