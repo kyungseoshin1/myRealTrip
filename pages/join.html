@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../pages/css/join.css" />
   </head>
   <body>
     <div id="app">
       <div class="app-layout">
         <!-- 왼쪽화면 -->
-        <div class="left-aside">회원가입</div>
+        <aside class="sidebar">
+          <h1 class="sidebar-h1">
+            <img src="../images/test.png" width="147" height="34" />
+            <span class="sidebar-span">계정 만들기</span>
+          </h1>
+        </aside>
         <!-- //왼쪽화면 -->
         <div class="join-section-container">
           <div class="join-layout">
             <div class="join-title-container">
-              <h3 class="join-title1">계정만들기</h3>
+              <h3 class="join-title1">계정 만들기</h3>
               <div class="join-title2">로그인 계정을 생성해주세요</div>
             </div>
             <div class="join-name">이름</div>
@@ -26,10 +37,10 @@
               placeholder="홍길동"
               autocomplete="new-password"
             />
-            <div class="join-name-down">이름을 입력해주세요</div>
+            <div class="join-name-down">-이름을 입력해주세요</div>
             <div class="join-id">아이디</div>
             <input class="join-id-input" type="text" placeholder="예) hong123" />
-            <div class="join-id-down">로그인할 아이디를 입력해주세요</div>
+            <div class="join-id-down">-로그인할 아이디를 입력해주세요</div>
             <div class="join-password">비밀번호</div>
             <input
               class="join-password-input"
@@ -47,11 +58,12 @@
             />
             <div class="join-passwordcheck-down">비밀번호가 일치하지않습니다.</div>
           </div>
-          <div class="complete-button">
+          <footer class="footer">
             <button class="complete-button-check">완료</button>
-          </div>
+          </footer>
         </div>
       </div>
+      <div class="position"></div>
     </div>
   </body>
-</html>
+</html>`
