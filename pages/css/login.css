@@ -1,0 +1,98 @@
+div {
+  display: block;
+}
+
+.header-con {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 72px;
+  background: white;
+  z-index: 9;
+  text-align: center;
+}
+
+.header-container {
+  width: 100%;
+  margin: 16px 24px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1016px;
+  margin: 16px auto;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  margin-left: 0px;
+}
+
+.a-logo {
+  color: #51abf3;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.logo-image {
+  width: 128px;
+  height: 100%;
+  margin-right: 10px;
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+
+.logo-span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 3px;
+  line-height: 138%;
+  color: gray;
+}
+
+.header-button {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  text-align: center;
+}
+
+.button-color {
+  margin: 8px;
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(43, 150, 237);
+  color: rgb(255, 255, 255);
+  height: 40px;
+  padding: 0px 12px;
+  width: auto;
+  border-radius: 99px;
+  box-shadow: none;
+}
+
+.buttoncss {
+  padding: 0px 4px;
+}
+
+.span-button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  white-space: pre-wrap;
+}
