@@ -1,0 +1,25 @@
+.main-com {
+  position: relative;
+  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', -apple-system, BlinkMacSystemFont,
+    'Noto Sans KR', 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0px;
+  -webkit-font-smoothing: antialiased;
+  overflow-anchor: none;
+  overflow: hidden;
+}
+
+.modcon {
+  transform: translate(-96px);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: auto;
+}
+
+.mainsell {
+  background-color: #f5f6f7;
+  display: flex;
+  height: 96px;
+  justify-content: center;
+  overflow: hidden;
+  visibility: hidden;
+}

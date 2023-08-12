@@ -1,4 +1,3 @@
-
 .header-con {
   position: fixed;
   top: 0px;
@@ -99,10 +98,9 @@ form {
   margin-top: 0em;
 }
 
-
 .login-container {
-    padding: 72px 0px 0px;
-  }
+  padding: 72px 0px 0px;
+}
 
 @media (max-width: 767px) {
   .login-containerbox {
@@ -201,4 +199,5 @@ form {
   font-weight: 600;
   border: none;
   box-shadow: none;
+  margin-top: 30px;
 }

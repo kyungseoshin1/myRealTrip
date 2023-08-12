@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
     <link rel="stylesheet" href="../pages/css/login.css" />
+    <script src="../pages/js/login.js"></script>
   </head>
   <body>
+    <form action="checkLogin()"></form>
     <div class="app">
       <div class="header-con">
         <div class="header-container">
@@ -32,15 +34,20 @@
           <form>
             <div class="checkid">아이디</div>
             <div class="inputid">
-              <input type="text" placeholder="ID" class="inputid1" />
+              <input id="idCheck" type="text" placeholder="ID" class="inputid1" /> 
             </div>
             <div class="checkpw">비밀번호</div>
             <div class="inputpw">
-              <input type="password" placeholder="비밀번호를 입력해주세요" class="inputpw1" />
+              <input
+                id="pwcheck"
+                type="password"
+                placeholder="비밀번호를 입력해주세요"
+                class="inputpw1"
+              />
             </div>
-            <label class="keepid"> <input type="checkbox" class="keepid1" />로그인 유지 </label>
+            <!-- <label class="keepid"> <input type="checkbox" class="keepid1" />로그인 유지 </label> -->
             <div class="loginbutton">
-              <button class="loginbutton1">로그인</button>
+              <button  class="loginbutton1">로그인</button>
             </div>
           </form>
         </div>
