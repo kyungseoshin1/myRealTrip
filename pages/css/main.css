@@ -1,18 +1,12 @@
 .main-com {
-  position: relative;
-  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', -apple-system, BlinkMacSystemFont,
-    'Noto Sans KR', 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
-  letter-spacing: 0px;
-  -webkit-font-smoothing: antialiased;
-  overflow-anchor: none;
   overflow: hidden;
 }
 
-.modcon {
-  transform: translate(-96px);
+.mod-con {
+  position: relative;
+  transform: translateY(-96px);
   transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: auto;
+  will-change: transform;
 }
 
 .mainsell {
@@ -22,4 +16,167 @@
   justify-content: center;
   overflow: hidden;
   visibility: hidden;
+  margin-bottom: 48px;
+}
+
+.mainheader {
+  background-color: #fff;
+  margin-bottom: 64px;
+  text-align: center;
+  width: 100%;
+}
+
+.mainheader-con {
+  position: relative;
+  width: 100%;
+}
+
+.welcome-travel {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-top: 48px;
+  margin: 0 auto;
+  position: relative;
+  width: 1060px;
+}
+
+.welcome-travelhead {
+  color: black;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  line-height: 44px;
+  text-align: left;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .list-head {
+    width: 1080px !important;
+  }
+}
+
+.list-head1 {
+  margin: 0 auto;
+  position: relative;
+  width: 1060px;
+}
+
+.list-con {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.list-incon {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.list-wrap {
+  width: 2430px;
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  opacity: 0.99;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.list-wrapspan {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .japan-osaka {
+    left: 10px;
+    margin-right: 20px;
+  }
+}
+
+.japan-osaka1 {
+  border-radius: 8px;
+  box-shadow: 0 8px 12px 0 rgba(33, 37, 41, 0.15);
+  cursor: pointer;
+  display: inline-block;
+  height: 333px;
+  overflow: hidden;
+  position: relative;
+  width: 250px !important;
+  z-index: 0;
+}
+
+img {
+  border-width: 0;
+  vertical-align: middle;
+  border: 0;
+}
+
+.osaka {
+  transform: scale(1);
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  height: 100%;
+  width: auto;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+}
+
+.osaka-travel {
+  background-image: linear-gradient(142deg, rgba(0, 0, 0, 0.7), hsla(0, 0%, 100%, 0) 65%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.osaka-content {
+  height: 100%;
+  left: 0;
+  padding: 32px 24px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 100%;
+}
+
+.japan-content-a {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.osaka-name{
+  font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    line-height: 1.29;
+    text-align: left;
+    text-shadow: 0 1px 8px rgba(33,37,41,.6);
+    vertical-align: middle;
+}
+
+p, span{
+  color: inherit;
 }
